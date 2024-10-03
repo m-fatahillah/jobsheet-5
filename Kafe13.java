@@ -42,6 +42,9 @@ public class Kafe13 {
             case 'L':
                 totalHarga += 0.4 * totalHarga;
                 break;
+            default :
+            System.out.println("ukuran tidak valid"); 
+            break;
 
         }
         
