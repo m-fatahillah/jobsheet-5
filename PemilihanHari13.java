@@ -4,8 +4,10 @@ public class PemilihanHari13 {
 public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     String dayName, dayType;
-    System.out.println("input day name : ");
+
+    System.out.print("input day name : ");
     dayName = sc.nextLine();
+    
     switch (dayName.toLowerCase()) {
 
         case "monday":
@@ -22,8 +24,8 @@ public static void main(String[] args) {
         default:
             dayType = "invalid day name";
     }
-    System.out.println(dayName + "is a" + dayType);
-
+    System.out.println(dayName + " is a " + dayType);
+    sc.close();
 }
     
 }
