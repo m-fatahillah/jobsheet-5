@@ -14,32 +14,32 @@ public class siakad13 {
 
         System.out.println("");
 
-        System.out.print("Masukkan nama mahasiswa\t\t : ");
+        System.out.print("Masukkan nama mahasiswa : ");
         String nama = input.nextLine();
 
-        System.out.print("Masukkan nim\t\t\t : ");
+        System.out.print("Masukkan nim: ");
         String nim = input.nextLine();
 
-        System.out.print("Masukkan kelas\t\t\t : ");
+        System.out.print("Masukkan kelas : ");
         char kelas = input.next().charAt(0);
 
-        System.out.print("Masukkan no. absen\t\t : ");
+        System.out.print("Masukkan no. absen : ");
         byte absen = input.nextByte();
 
         System.out.println("");
         System.out.println("=========================================");
         System.out.println("");
 
-        System.out.print("Masukkan nilai kuis\t\t : ");
+        System.out.print("Masukkan nilai kuis : ");
         double nilaiKuis = input.nextDouble();
 
-        System.out.print("Masukkan nilai tugas\t\t : ");
+        System.out.print("Masukkan nilai tugas : ");
         double nilaiTugas = input.nextDouble();
 
-        System.out.print("Masukkan nilai UTS\t\t : ");
+        System.out.print("Masukkan nilai UTS : ");
         double nilaiUTS = input.nextDouble();
 
-        System.out.print("Masukkan nilai UAS\t\t : ");
+        System.out.print("Masukkan nilai UAS : ");
         double nilaiUAS = input.nextDouble();
 
         double nilaiAkhir = (nilaiKuis * 0.20) + (nilaiTugas * 0.15) + (nilaiUTS * 0.30) + (nilaiUAS * 0.35);
